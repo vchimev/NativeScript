@@ -403,8 +403,8 @@ export class Tabs extends TabsBase {
     public createNativeView() {
         initializeNativeClasses();
         // TODO
-        // if (traceEnabled()) {
-        //     traceWrite("TabView._createUI(" + this + ");", traceCategory);
+        // if (Trace.isEnabled()) {
+        //     Trace.write("TabView._createUI(" + this + ");", traceCategory);
         // }
 
         const context: android.content.Context = this._context;
@@ -949,8 +949,8 @@ export class Tabs extends TabsBase {
         const smoothScroll = true;
 
         // TODO
-        // if (traceEnabled()) {
-        //     traceWrite("TabView this._viewPager.setCurrentItem(" + value + ", " + smoothScroll + ");", traceCategory);
+        // if (Trace.isEnabled()) {
+        //     Trace.write("TabView this._viewPager.setCurrentItem(" + value + ", " + smoothScroll + ");", traceCategory);
         // }
 
         this._viewPager.setCurrentItem(value, smoothScroll);
