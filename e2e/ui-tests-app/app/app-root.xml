@@ -1,1 +1,17 @@
-<Frame defaultPage="main-page" />
+<Tabs selectedIndex="2">
+    <TabStrip>
+        <TabStripItem title="TabStripItem First"></TabStripItem>
+        <TabStripItem title="TabStripItem Second"></TabStripItem>
+        <TabStripItem title="TabStripItem Third"></TabStripItem>
+    </TabStrip>
+
+    <TabContentItem>
+        <Label text="First"></Label>
+    </TabContentItem>
+    <TabContentItem>
+        <Label text="Second"></Label>
+    </TabContentItem>
+    <TabContentItem>
+        <Label text="Third"></Label>
+    </TabContentItem>
+</Tabs>
